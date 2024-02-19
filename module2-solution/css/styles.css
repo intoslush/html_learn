@@ -1,0 +1,96 @@
+ /* Styles go here. */
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: sans-serif;
+ }
+
+ .place {
+     background-color: white;
+     width: 33%;
+     float: left;
+     margin-bottom: 50px;
+ }
+
+ .box {
+     background-color: #999999;
+     width: 90%;
+     border: 3px solid black;
+     /* font-weight: 700; */
+     margin-right: auto;
+     margin-left: auto;
+     float: none;
+
+ }
+
+ .title_box {
+     font-size: large;
+     float: right;
+     border: 3px solid black;
+     margin-top: -3px;
+     margin-right: -3px;
+     margin-left: -3px;
+     text-align: center;
+     padding: auto;
+     width: 30%;
+     height: auto;
+     overflow: hidden;
+     padding: 8px;
+     font-weight: 700;
+     /* clear: left; */
+ }
+
+ #t1 {
+     background-color: #D59898;
+ }
+
+ #t2 {
+     background-color: #C14543;
+     color: white;
+ }
+
+ #t3 {
+     background-color: #E5D198;
+ }
+
+ .text_box {
+     padding: auto;
+     clear: right;
+     line-height: 1.5;
+     padding: 5px;
+     font-weight: 520;
+     margin-bottom: 10px;
+ }
+
+ h1 {
+     text-align: center;
+     padding: 50px;
+ }
+
+ @media (min-width: 992px) {}
+
+ @media (min-width: 768px) and (max-width: 991px) {
+     .place {
+         width: 50%;
+     }
+
+     .row .place:nth-child(3) {
+         width: 100%;
+     }
+
+     .row .place:nth-child(3) .box {
+         width: 95%;
+     }
+
+
+ }
+
+ @media (max-width: 767px) {
+     .place {
+         width: 100%;
+     }
+ }
